@@ -1,4 +1,6 @@
 #include <iostream>
+//this is a code for printing pattern
+//star printing program
 using namespace std;
 int main(){
     int n;
@@ -7,7 +9,7 @@ int main(){
     {
         for(int j=n;j<i;j++)
         {
-            cout<<"#";
+            cout<<"*";
         }
         cout<<"\n";
     }
